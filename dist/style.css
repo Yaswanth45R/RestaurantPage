@@ -11,7 +11,7 @@ body{
     height: 100vh;
 }
 #content{
-    background-image: url('../../RestaurantPage/images/lidye-mainBackground.jpg');
+    background-image: url('../images/lidyeMainBackground.jpg');
     height:100vh;
     background-position: center;
     background-repeat: no-repeat;

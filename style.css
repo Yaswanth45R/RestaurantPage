@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@300;400;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+body{
+    height: 100vh;
+}
+#content{
+    background-image: url('../images/lidye-mainBackground.jpg');
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    font-size: 20px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 10%;
+}
+
+.main-content{
+    height: 80%;
+    border-top: 3px solid goldenrod;
+    border-bottom: 3px solid goldenrod;
+}
+
+.btn:hover{
+    border-bottom: 1px solid goldenrod;
+}
+.btn:active{
+    color: antiquewhite;
+    border-bottom: 4px solid goldenrod;
+}
+.main-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 800px;
+}
+.cursive{
+    font-family: "Herr von Muellerhoff",cursive;
+    font-size: 96px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.white{
+    color: white;
+}
+.golden{
+    color: goldenrod;
+}
+h1{
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -65px;
+}
+hr{
+    width: 280px;
+    margin: 24px auto;
+    border: 2px solid goldenrod;
+}
+.text-center{
+    text-align: center;
+}
+.sub-title{
+    font-size: 20px;
+}
+button{
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 16px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: goldenrod;
+}
+button:hover{
+    color: white;
+}
+button:active{
+    filter: brightness(80%);
+}
+
+.menu-content,.contact-content{
+    height: 80%;
+    border-top: 3px solid goldenrod;
+    border-bottom: 3px solid goldenrod;
+    background-color: antiquewhite;
+}
+
+
